@@ -64,11 +64,15 @@ body {
     background-color: white;
     border: 2px solid #011640;
 }
+a:link, a:visited, a:hover, a:active{
+    color: black;
+    text-decoration: none;
+}
 #Ekonomi1{
     background-color: white;
     color: #011640;
     width: 200px;
-    height:153px;
+    height:160px;
     float: right;
 }
 .ekonomiicerik2{
@@ -103,7 +107,7 @@ h5{
     background-color: #BF926B;
     color: #011640;
     text-align: center;
-    margin: 2px;
+    margin: 0px;
     padding: 0px;
 }
 #KulturSanat{

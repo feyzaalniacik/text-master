@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.sag{
+    float: right;
+    width: 32%;	
+    margin: 2px;
+    padding: 10px;
+}
+.sol{
+    width: 65%;
+    float:left;
+    margin: 2px;
+    padding:10px;
+    padding-right: 0px;
+}
+.covid{
+    background-color: #BF926B;
+    color: #011640;
+    margin: 2px;
+    padding: 5px;
+}
+.covidicerik{
+    background-color: #BF926B;
+    color: #011640;
+    margin: 2px;
+    padding: 5px;
+}
+.Covid{
+    width: 20px;
+    height: 10px;
+}
+.ekonomi{
+    background-color: #BF926B;
+    color: #011640;
+    margin: 2px;
+    padding: 5px;
+}
+.kultur-sanat{
+    background-color: #BF926B;
+    color: #011640;
+    margin: 2px;
+    padding: 5px;
+}
+.sondakika{
+    background-color: #011640;
+    color: #BF926B;
+    position: sticky;
+    margin: 2px;
+    padding: 5px;
+}

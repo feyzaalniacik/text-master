@@ -124,6 +124,11 @@ button{
 }
 /* sayac css kodları sonu */
 
+.gerisayim{
+    margin-left: 100px;
+}
+
+
 .ort{
     position:relative;
     margin-left: 40px;

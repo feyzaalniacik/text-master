@@ -1,26 +1,19 @@
-const header = document.getElementById('header')
-const title = document.getElementById('title')
-const excerpt = document.getElementById('excerpt')
-const profile_img = document.getElementById('profile_img')
-const name = document.getElementById('name')
-const date = document.getElementById('date')
+// 2. kişinin js atamaları başı
+const header2 = document.getElementById('header2')
+const title2 = document.getElementById('title2')
+const excerpt2 = document.getElementById('excerpt2')
+const profile_img2 = document.getElementById('profile_img2')
+const name2 = document.getElementById('name2')
+const date2 = document.getElementById('date2')
 
-const animated_bgs = document.querySelectorAll('.animated-bg')
-const animated_bg_texts = document.querySelectorAll('.animated-bg-text')
+const animated_bgs2 = document.querySelectorAll('.animated-bg2')
+const animated_bg_texts2 = document.querySelectorAll('.animated-bg-text2')
 
 setTimeout(getData, 2500)
 
 function getData() {
-  header.innerHTML =
-        '<img src="sozluk/feyza.jpeg" alt=""/>'
-  title.innerHTML = 'Lorem ipsum dolor sit amet'
-  excerpt.innerHTML =
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis'
-  profile_img.innerHTML =
-        '<img src="sozluk/feyza.jpeg" alt=""/>'
-  name.innerHTML = 'Feyza Alnıaçık'
-  date.innerHTML = '22 08 2000'
-
-  animated_bgs.forEach((bg) => bg.classList.remove('animated-bg'))
-  animated_bg_texts.forEach((bg) => bg.classList.remove('animated-bg-text'))
+  animated_bgs2.forEach((bg) => bg.classList.remove('animated-bg2'))
+  animated_bg_texts2.forEach((bg) => bg.classList.remove('animated-bg-text2'))
 }
+// 2. kişinin js atamaları sonu
+

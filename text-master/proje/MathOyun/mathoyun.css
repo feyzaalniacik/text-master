@@ -1,59 +1,42 @@
-body {
-    margin-top: 75px;
-    background-color: rgb(226, 218, 206);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-#logo {
-    padding-left: 20px;
-}
-.btn-group {
-    padding-right: 20px;
-}
-.btn-group a {
-    text-decoration: none;
-    color: rgb(247, 242, 242);
-    color: black;
-}
-
-
-
 
 
 body{
     color:#fff;
-    background: #B3E5FC;
+    background: #00695C;
     font-family: 'Source Sans Pro', sans-serif;
     }
 #oyun-panel{
-    
-    width: 330px;
-    background: #03A9F4;
+    height: 480px;
+    width: 450px;
+    color: #3E2723;
+    background: #FFF3E0;
     padding:16px;
     text-align: center;
     margin:auto;
-    margin-top: 50px;
+    margin-top: 120px;
 }
 h1{
     margin:0 0 16px 0;
-    border:solid 1px #fff;
+    margin-top: 40px;
+    border:solid 1px #3E2723;
     padding:5px;
     font-weight: 300; 
+    margin-bottom: 120px;
 }
 span{
-    font-size: 125%;
+    font-size: 225%;
     padding:10px;
 }
 #sonuc{
-    width: 50px;
+    width: 70px;
+    height: 35px;
 }
 #cevapla{
     margin-top:10px;
     padding:5px;
     border:none;
-    width: 100px;
-    background: #0288D1;
+    width: 120px;
+    background: #00695C;
     color:#fff;
 }
 #cevapla:hover{
@@ -64,6 +47,7 @@ span{
     margin-top:10px;
     padding:10px;
     display: inline-block;
+    width:45px;
 }
 #dogru{
     background: #4CAF50;

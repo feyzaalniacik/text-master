@@ -1,7 +1,0 @@
-.rate-yellow{
-    color: var(--bs-yellow);
-}
-.rate > input{
-    position: absolute;
-    opacity: 0;
-}

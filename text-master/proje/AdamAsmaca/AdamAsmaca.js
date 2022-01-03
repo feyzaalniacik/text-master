@@ -79,7 +79,7 @@ for(var i=0;i<kelime.length;i++)
 {
 var harf = document.createElement("button");
 harf.setAttribute("type","button")
-harf.classList.add("btn", "btn-primary", "bharf");
+harf.classList.add("btn", "btn-light", "bharf");
 harf.textContent="_";
 yertutucu.appendChild(harf);
 }

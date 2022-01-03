@@ -1,26 +1,11 @@
-body {
-    margin-top: 75px;
-    background-color: rgb(226, 218, 206);
-    font-family: 'Times New Roman', Times, serif;
+body{
+    background-color: #B7A5A5;
     font-size: 20px;
-    padding-bottom: 20px;
 }
-#logo {
-    padding-left: 20px;
+.container{
+    margin-top: 30px;
+    margin-left: 400px;
 }
-.btn-group {
-    padding-right: 20px;
-}
-.btn-group a {
-    text-decoration: none;
-    color: rgb(247, 242, 242);
-    color: black;
-}
-
-
-
-
-
 .harf,.bharf{
     width: 50px;
     height: 50px;

@@ -1,0 +1,73 @@
+body {
+    margin-top: 75px;
+    background-color: rgb(226, 218, 206);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#logo {
+    padding-left: 20px;
+}
+.btn-group {
+    padding-right: 20px;
+}
+.btn-group a {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    color: black;
+}
+
+
+
+
+
+body{
+    color:#fff;
+    background: #B3E5FC;
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+#oyun-panel{
+    
+    width: 330px;
+    background: #03A9F4;
+    padding:16px;
+    text-align: center;
+    margin:auto;
+    margin-top: 50px;
+}
+h1{
+    margin:0 0 16px 0;
+    border:solid 1px #fff;
+    padding:5px;
+    font-weight: 300; 
+}
+span{
+    font-size: 125%;
+    padding:10px;
+}
+#sonuc{
+    width: 50px;
+}
+#cevapla{
+    margin-top:10px;
+    padding:5px;
+    border:none;
+    width: 100px;
+    background: #0288D1;
+    color:#fff;
+}
+#cevapla:hover{
+    background: #8BC34A;
+}
+#dogru,#yanlis{
+    font-size: 150%;
+    margin-top:10px;
+    padding:10px;
+    display: inline-block;
+}
+#dogru{
+    background: #4CAF50;
+}
+#yanlis{
+    background: #D32F2F;
+}

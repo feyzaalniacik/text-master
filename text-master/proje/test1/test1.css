@@ -38,7 +38,6 @@ input {
 	border: 1px solid green;
 	color: black;
 	cursor: pointer;
-
 }
 #after_submit {
 	visibility: hidden;

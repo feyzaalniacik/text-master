@@ -52,6 +52,7 @@ body {
 /* alancevre css kodları başı */
 .alancevre{
     background-image:url("dikdörtgen.gif");
+    /* tam konumunu ver */
     border-style: solid;
     border-color: black;
 }

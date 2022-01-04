@@ -152,7 +152,7 @@ function Hesapla1(){
 }
                 
 var hspBtn=document.getElementById("btn");
- btn.onclick=Hesapla1;
+btn.onclick=Hesapla1;
 
                 // dikdörtgen alan/çevre js kodları başlangıcı
 

@@ -240,95 +240,94 @@
 // const dogruluk =  (str, char) => kontrol(str,char)>2 && kontrol(str, char)<=4;
 
 
-// // ÖRNEK
-// [1,2,3,4,5,6,7,8]
-// // dizide kaç tane çift sayı old versin
-// const count = (arr) => arr.filter(x => x %2 === 0).length;
+// // // ÖRNEK
+// // [1,2,3,4,5,6,7,8]
+// // // dizide kaç tane çift sayı old versin
+// // const count = (arr) => arr.filter(x => x %2 === 0).length;
 
 
-let uzunluk = ["mustafa", "ahmet"].map(item=> item.length);
-console.log(uzunluk);
-// kelime uzunluğuna göre sayıya çevirip dizi oluşturur.
+// let uzunluk = ["mustafa", "ahmet"].map(item=> item.length);
+// console.log(uzunluk);
+// // kelime uzunluğuna göre sayıya çevirip dizi oluşturur.
 
 
-let splitt = "mustafa , ahmet";
-let aaabb = splitt.split(',');
-// splitin içi boş olursa tüm harfleri ayrı index olarak alır ve array oluşturur.
-console.log(aaabb);
+// let splitt = "mustafa , ahmet";
+// let aaabb = splitt.split(',');
+// // splitin içi boş olursa tüm harfleri ayrı index olarak alır ve array oluşturur.
+// console.log(aaabb);
 
 
-let aaarr = [1,2,3,4,5];
-let bbbb = aaarr.reduce((sum, current)=>sum+current, 0);
-console.log(bbbb);
-// bir başlangıç değeri verilir (en sağdaki 0) ve onun üzerine arraydeki sayıları ekler, toplar. sonuç verir.
+// let aaarr = [1,2,3,4,5];
+// let bbbb = aaarr.reduce((sum, current)=>sum+current, 0);
+// console.log(bbbb);
+// // bir başlangıç değeri verilir (en sağdaki 0) ve onun üzerine arraydeki sayıları ekler, toplar. sonuç verir.
 
 
-let tessstt = [1,2,3];
-console.log(...tessstt);
-// dizinin içinden itemleri çıkartır.
-console.log([...tessstt, 4]);
-// yazılırsa kendi dizini oluşturmuş olursun. dizi=> 1 2 3 4
+// let tessstt = [1,2,3];
+// console.log(...tessstt);
+// // dizinin içinden itemleri çıkartır.
+// console.log([...tessstt, 4]);
+// // yazılırsa kendi dizini oluşturmuş olursun. dizi=> 1 2 3 4
 
 
-function showNmae(first, last, ...titles){
+// function showNmae(first, last, ...titles){
 
-    console.log(first + last);
-    console.log(titles[0]);
-    console.log(titles[1]);
-}
-showNmae("karim", "benzama", "luka", "modric");
-// rest=geriye kalan
-// rest olarak kullanıldığında daima fonksiyonun sonuna gelir. luka ve modrici ...titles içine atar ve yeni dizi oluşturur. luka yeni dizinin 1. elemanı, modric yeni dizinin 2. elemanı olur.,
-// fonksiyonun kalan kısmında ne geleceğini tahmin edemediğimizde kullanılır. ne geldiğini öğrenip ona göre işlem yapılabilir.
-
-
-// (=>) metottur
-orders.filter(x=>x.orderId == '234' && !x.delivered)
-// kısıtları belirler. orderId'si 234 ve sonucu false olanları çıkartır.
-
-// 1.yol
-orders.forEach(x => {
-    x.totals = 0;
-    x.items.forEach(a=>{
-        x.totals += a.price
-    })
-})
-// 2. yol (daha mantıklı)
-orders.forEach(x=> {
-    x.totals = x.items.reduce((a, i)=> a + i.price, 0)
-})
+//     console.log(first + last);
+//     console.log(titles[0]);
+//     console.log(titles[1]);
+// }
+// showNmae("karim", "benzama", "luka", "modric");
+// // rest=geriye kalan
+// // rest olarak kullanıldığında daima fonksiyonun sonuna gelir. luka ve modrici ...titles içine atar ve yeni dizi oluşturur. luka yeni dizinin 1. elemanı, modric yeni dizinin 2. elemanı olur.,
+// // fonksiyonun kalan kısmında ne geleceğini tahmin edemediğimizde kullanılır. ne geldiğini öğrenip ona göre işlem yapılabilir.
 
 
-// Object orianted:
-// polimorfizm = çok çeşitlilik
-// abstraction = soyutlama
-// n kapsulation =
+// // (=>) metottur
+// orders.filter(x=>x.orderId == '234' && !x.delivered)
+// // kısıtları belirler. orderId'si 234 ve sonucu false olanları çıkartır.
+
+// // 1.yol
+// orders.forEach(x => {
+//     x.totals = 0;
+//     x.items.forEach(a=>{
+//         x.totals += a.price
+//     })
+// })
+// // 2. yol (daha mantıklı)
+// orders.forEach(x=> {
+//     x.totals = x.items.reduce((a, i)=> a + i.price, 0)
+// })
 
 
-let a = {}
+// // Object orianted:
+// // polimorfizm = çok çeşitlilik
+// // abstraction = soyutlama
+// // n kapsulation =
 
-let b = new Object();
-// new = ram'in hip'inde obje için yer oluşturur. new constracture'dır. yani class'ta ilk çalışan yer.
 
-let c = 1;
-// obje steak'te
+// let a = {}
 
-a.model = "volvo";
-a.age = 2;
-// obje içine değer atama
+// let b = new Object();
+// // new = ram'in hip'inde obje için yer oluşturur. new constracture'dır. yani class'ta ilk çalışan yer.
 
-let pers = {
-    name:"isim",
-    age: 20,
-    count: function(){
-        return this.age;
-        // this obje içindekileri gösterir.
-    }
-}
-pers.name;
-// ismi alır
+// let c = 1;
+// // obje steak'te
 
-// PROJE   nodejs
-// recommended tıkla kur
-// npm paketi verir. firebas için yazılmış kodu kopyala yapıştır.
+// a.model = "volvo";
+// a.age = 2;
+// // obje içine değer atama
 
+// let pers = {
+//     name:"isim",
+//     age: 20,
+//     count: function(){
+//         return this.age;
+//         // this obje içindekileri gösterir.
+//     }
+// }
+// pers.name;
+// // ismi alır
+
+// // PROJE   nodejs
+// // recommended tıkla kur
+// // npm paketi verir. firebas için yazılmış kodu kopyala yapıştır.

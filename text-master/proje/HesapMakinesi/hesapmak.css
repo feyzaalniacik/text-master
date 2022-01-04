@@ -18,8 +18,6 @@ body {
 }
 /* üstü manü css */
 
-
-
 .sag{
     float: right;
     width: 22%;	
@@ -45,7 +43,6 @@ body {
 
 /* asalsayi css kodları başı */
 .asalsayi{
-    /* background-color: 	#9400D3; */
     border-style: solid;
     border-color: black;
 }
@@ -58,6 +55,10 @@ body {
     border-style: solid;
     border-color: black;
 }
+#btn{
+    width: 100px;
+}
+
 /* alancevre css kodları sonu */
 
 
@@ -226,3 +227,10 @@ button{
 }
 /* hesap makinesinin css kodları sonu */
 
+
+
+
+/* hipotenusün butonu ile ilgili */
+#buton{
+    width: 100px;
+}

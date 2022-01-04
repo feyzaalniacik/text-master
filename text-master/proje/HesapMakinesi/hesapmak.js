@@ -140,7 +140,7 @@ for(i=2; i<sayi; i++)
 
 
                 // dikdörtgen alan/çevre js kodları başlangı
-function Hesapla(){
+function Hesapla1(){
     var kk=document.getElementById("kisa").value;
     var uk=document.getElementById("uzun").value;
     kk=Number(kk);
@@ -152,7 +152,7 @@ function Hesapla(){
 }
                 
 var hspBtn=document.getElementById("btn");
- btn.onclick=Hesapla;
+ btn.onclick=Hesapla1;
 
                 // dikdörtgen alan/çevre js kodları başlangıcı
 
@@ -186,3 +186,45 @@ var clock = setInterval(
     },1000
 );
 // saat js sonu
+
+
+
+var vize=document.getElementById("txtVize");
+var final=document.getElementById("txtFinal");
+var btnHesap=document.getElementById("hesap");
+	
+btnHesap.onclick=function(){
+	var durum="";
+	var vizeNotu=Number(vize.value);
+	var finalNotu=Number(final.value);
+	var ortalama=(vizeNotu*0.4)+(finalNotu*0.6);
+	if(ortalama>=50 && finalNotu>=40)
+	{
+		durum="GEÇTİNİZ";
+	}
+	else if (ortalama>=50 && finalNotu<40)
+	{
+		durum="Final notu 40'tan küçük! KALDINIZ";
+	}
+    else if (ortalama>100)
+    {
+        durum="HATALI NOT GİRDİNİZ."
+    }
+	else
+	{
+		durum="Ortalamanız 50'den küçük! KALDINIZ. "
+	}
+	document.getElementById("lblSonuc").innerHTML="Ortalamanız : "+ortalama+"<BR>"+durum;
+}
+
+// hipotenüs hesaplama js kodu başı
+function Hesapla()
+{
+	var k1=Number(document.getElementById("txtKenar1").value);
+	var k2=Number(document.getElementById("txtKenar2").value);
+	var hipotenus=Math.sqrt((k1*k1)+(k2*k2));
+	document.getElementById("sonuc1").innerHTML="Hipotenüs : "+hipotenus;
+}
+var hesapBtn=document.getElementById("buton");
+hesapBtn.onclick=Hesapla;
+// hipotenüs hesaplama js kodu sonu

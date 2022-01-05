@@ -228,3 +228,4 @@ function Hesapla()
 var hesapBtn=document.getElementById("buton");
 hesapBtn.onclick=Hesapla;
 // hipotenüs hesaplama js kodu sonu
+

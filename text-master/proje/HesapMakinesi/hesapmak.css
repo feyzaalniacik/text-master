@@ -43,6 +43,8 @@ body {
 
 /* asalsayi css kodları başı */
 .asalsayi{
+    background-image:url("ünisayfa/asal.gif");
+    color: white;
     border-style: solid;
     border-color: black;
 }
@@ -51,7 +53,7 @@ body {
 
 /* alancevre css kodları başı */
 .alancevre{
-    background-image:url("dikdörtgen.gif");
+    background-image:url("ünisayfa/dikdörtgen.gif");
     /* tam konumunu ver */
     border-style: solid;
     border-color: black;
@@ -65,6 +67,7 @@ body {
 
 /* saat css kodları başı */
 .saat{
+    background-image:url("ünisayfa/saat.gif");
     width: 250px;
     height: 100px;
     display: flex;
@@ -72,7 +75,10 @@ body {
     justify-content: space-between;
 }
 .saat div{
+    border-style: solid;
+    border-color: white;
     margin-left: 20px;
+    margin-right: 10px;
     position: relative;
     background-color: #ffffff;
     height: 60%;
@@ -95,6 +101,8 @@ body {
 /* saat css kodları sonu */
 
 .hipotenus{
+    background-image:url("ünisayfa/hipo.gif");
+    color: white;
     border-style: solid;
     border-color: black;
 }
@@ -104,10 +112,11 @@ body {
 
 /* sayac css kodları başlangıcı */
 .sayacmatik{
+    background-image:url("ünisayfa/sayac.jpg");
     width: 150px;
     height: 150px;
     background-color: #185AD8;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,11 +160,24 @@ button{
     margin-left: 100px;
 }
 .ort{
+    width: 420px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-image:url("ünisayfa/ort.jpg");
     position:relative;
     margin-left: 100px;
 }
 #sayac{
     margin-left: 120px;
+}
+#click1{
+    width: 100px;
+}
+#click2{
+    width: 100px;
+}
+#click3{
+    width: 100px;
 }
 /* gerisayım css kodları sonu */
 
